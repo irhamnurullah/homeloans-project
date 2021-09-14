@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+img {
+  width: 90%;
+  padding: 10px;
+}
+
+.cstm-content {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.cstm-background {
+  justify-content: space-between;
+  display: flex;
+  padding: 0px 10px 8px 0px;
+}

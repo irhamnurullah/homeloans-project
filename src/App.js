@@ -1,7 +1,11 @@
+import { BrowserRouter, Route } from "react-router-dom";
+import Beranda from "./screens/DashboardKaryawan/Beranda";
 import "./App.css";
 
-function App() {
-  return <h1>hello world</h1>;
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Route component={Beranda} path="/Beranda" />
+    </BrowserRouter>
+  );
 }
-
-export default App;
